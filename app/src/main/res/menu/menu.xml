@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:visible="true" android:id="@+id/delete_location" android:title="Delete Location" android:icon="@drawable/remove_location" app:showAsAction="always" />
+    <item android:visible="true" android:id="@+id/createStartDestination" android:title="Create Start Destination" android:icon="@drawable/ic_baseline_navigation_24" app:showAsAction="ifRoom" />
+
+    <item android:visible="true" android:id="@+id/themes" android:title="Themes" android:icon="@drawable/ic_baseline_auto_awesome_motion_24" app:showAsAction="always" />
+
+
+
+
+
+
+
+</menu>

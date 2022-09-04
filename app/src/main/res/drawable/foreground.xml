@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item  >
+
+        <inset  android:drawable="@drawable/ic_compass__2_" android:inset="18dp"/>
+
+    </item>
+
+</selector>

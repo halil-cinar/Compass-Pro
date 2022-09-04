@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<data 
+    
+    >
+    <variable
+        name="themesModel"
+        type="com.halil.cumpass.model.ThemesModel" />
+    <variable
+        name="listener"
+        type="com.halil.cumpass.adapter.OnClickListener" />
+
+</data>
+<RelativeLayout
+    
+    android:onClick="@{listener::click}"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/recyclerViewThemesImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="4dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/themesName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/recyclerViewThemesImageView"
+        android:layout_alignEnd="@+id/recyclerViewThemesImageView"
+        android:layout_alignBottom="@+id/recyclerViewThemesImageView"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@{themesModel.name}"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
+</layout>

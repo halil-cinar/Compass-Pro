@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="magnetic_heading">MAGNETIC HEADING</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gps_signal_is_expected">GPS signal is expected</string>
+
+</resources>

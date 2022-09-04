@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/drawable/ic_compass__2_.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/drawable/ic_component_2___1.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.163" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/cumpass.xml" value="0.165" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/cumpass_not_color.xml" value="0.165" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/cumpass_selector.xml" value="0.165" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/cumpasss.xml" value="0.165" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/deneme.xml" value="0.162" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/deneme2.xml" value="0.162" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/foreground.xml" value="0.163" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.165" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_baseline_navigation_24.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_baseline_navigation_244.xml" value="0.162" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_compass.xml" value="0.165" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_compass__2_.xml" value="0.165" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_component_1___1.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_component_2___1.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_google_pixel_6_pro___1.xml" value="0.162" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/line.xml" value="0.162" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/rotation_icon.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/layout/activity_themes.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/layout/details_recycler_row.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/layout/fragment_cumpass.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/layout/fragment_details.xml" value="0.264" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/layout/themes_recycler_row.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/menu/menu.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
