@@ -1,4 +1,5 @@
 ## Compass-Pro
+##Features
 
 * Points to magnetic north
 * Shows exact degrees and cardinal direction
