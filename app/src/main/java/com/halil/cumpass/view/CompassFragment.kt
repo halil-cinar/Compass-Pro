@@ -157,7 +157,7 @@ fun createListener(){
                     SharedPreferences(requireContext()).saveLocation(it)
                     Toast.makeText(
                         requireContext(),
-                        "Start Destination is Saved",
+                        "Start Location is Saved",
                         Toast.LENGTH_SHORT
                     ).show()
                     dataBinding.angleOfStartLocationVisibility=true

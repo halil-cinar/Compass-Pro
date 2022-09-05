@@ -151,7 +151,7 @@ var colorRes:Int?=null
         }
         if(item.itemId==R.id.delete_location){
             SharedPreferences(this).deleteLocation()
-            Toast.makeText(this, "Start destination is deleted", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Start location is deleted", Toast.LENGTH_SHORT).show()
 
         }
 

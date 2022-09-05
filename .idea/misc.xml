@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/drawable/deneme.xml" value="0.1" />
         <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/drawable/ic_compass__2_.xml" value="0.1" />
         <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/drawable/ic_component_2___1.xml" value="0.1" />
+        <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/layout/fragment_cumpass.xml" value="0.13196555217831812" />
         <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Compass/app/src/main/res/menu/menu.xml" value="0.264" />
         <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.163" />
         <entry key="..\:/Users/HalilCINAR/AndroidStudioProjects/Cumpass/app/src/main/res/drawable/cumpass.xml" value="0.165" />

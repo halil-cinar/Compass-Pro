@@ -101,14 +101,14 @@ class CompassFragmentViewModel():ViewModel() {
 
                        bearing=if(bearing<0)360-abs(bearing) else bearing
                      details.add(  DetailsModel(
-                           "Angle With\nStart Destination",
+                           "Angle With\nStart Location",
                          "$bearing°"
                        )
                      )
                    }else{
                        details.add(  DetailsModel(
-                           "Angle With \n Start Destination",
-                           "Start Destination\n Not Saved"
+                           "Angle With \n Start Location",
+                           "Start Location\n Not Saved"
                        )
                        )
                    }
