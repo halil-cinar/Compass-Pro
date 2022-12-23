@@ -80,12 +80,12 @@ detailsRecyclerView.adapter=adapter
         detailsRecyclerView2.layoutManager=LinearLayoutManager(requireContext())
 
         var details=ArrayList<DetailsModel>()
-        details.add(DetailsModel("Longitude","Waiting"))
-        details.add(DetailsModel("Latitude","Waiting"))
-        details.add(DetailsModel("Altitude","Waiting"))
-        details.add(DetailsModel("GpsBearing","Waiting"))
-        details.add(DetailsModel("Speed","Waiting"))
-        details.add(DetailsModel("Accuracy","Waiting"))
+        details.add(DetailsModel(requireContext().resources.getString(R.string.longitude),"Waiting"))
+        details.add(DetailsModel(requireContext().resources.getString(R.string.latitude),"Waiting"))
+        details.add(DetailsModel(requireContext().resources.getString(R.string.altitude),"Waiting"))
+        details.add(DetailsModel(requireContext().resources.getString(R.string.gps_bearing),"Waiting"))
+        details.add(DetailsModel(requireContext().resources.getString(R.string.speed),"Waiting"))
+        details.add(DetailsModel(requireContext().resources.getString(R.string.accuracy),"Waiting"))
         adapter.datasetChange(details)
         observeLiveData()
 
@@ -157,7 +157,7 @@ fun createListener(){
                     SharedPreferences(requireContext()).saveLocation(it)
                     Toast.makeText(
                         requireContext(),
-                        "Start Location is Saved",
+                        requireContext().resources.getText(R.string.start_location_saved),
                         Toast.LENGTH_SHORT
                     ).show()
                     dataBinding.angleOfStartLocationVisibility=true

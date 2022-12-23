@@ -1,8 +1,29 @@
 <resources>
-    <string name="app_name">Compass</string>
+    <string name="app_name" translatable="false">Compass Pro</string>
     <string name="magnetic_heading">MAGNETIC HEADING</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="gps_signal_is_expected">GPS signal is expected</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="altitude">Altitude</string>
+    <string name="gps_bearing">Gps Bearing</string>
+    <string name="speed">Speed</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="angle_with_start_location">Angle With \nStart Location</string>
+    <string name="azimuth">Azimuth</string>
+    <string name="pitch">Pitch</string>
+    <string name="roll">Roll</string>
+    <string name="start_location_saved">Start Location Is Saved</string>
+    <string name="start_location_deleted">Start Location Is Deleted</string>
+    <string name="start_location_not_saved">Start Location not saved</string>
+    <string name="you_must_permission">You Must Permission</string>
+    <string name="address_not_found">Address not found</string>
+    <string name="sensors_not_found">Your device does not have some sensors. Data may be wrong</string>
+
+
+
+
+
 
 </resources>

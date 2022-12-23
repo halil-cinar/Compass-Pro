@@ -14,6 +14,7 @@ import android.widget.Toast
 import androidx.core.util.toHalf
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.halil.cumpass.R
 import com.halil.cumpass.model.DetailsModel
 import com.halil.cumpass.model.Model
 import com.halil.cumpass.util.PermissionsControl
@@ -56,7 +57,7 @@ class CompassFragmentViewModel():ViewModel() {
             override fun onLocationChanged(p0: Location) {
                 currentLocation=p0
                 observeData(p0,null)
-                println("knasfnknkak")
+
             }
 
         }
@@ -86,12 +87,12 @@ class CompassFragmentViewModel():ViewModel() {
                var latitude=loc.latitude.toString()
                latitude=latitude.substring(0,if (latitude.length<12) latitude.length else 12)
 
-               details.add(DetailsModel("Longitude",longitude+"°"))
-                   details.add(DetailsModel("Latitude",latitude+"°"))
-                   details.add(DetailsModel("Altitude",loc.altitude.toString()+"m"))
-               details.add(DetailsModel("GpsBearing",loc.bearing.toString()+"°"))
-                   details.add(DetailsModel("Speed",(loc.speed*3.6).roundToInt().toString()+"km/h"))
-                   details.add(DetailsModel("Accuracy",if (loc.accuracy<1000) loc.accuracy.toString()+"m" else (loc.accuracy/1000.0).toString()+"km"))
+               details.add(DetailsModel(context!!.resources.getString(R.string.longitude),longitude+"°"))
+                   details.add(DetailsModel(context!!.resources.getString(R.string.latitude),latitude+"°"))
+                   details.add(DetailsModel(context!!.resources.getString(R.string.altitude),loc.altitude.toString()+"m"))
+               details.add(DetailsModel(context!!.resources.getString(R.string.gps_bearing),loc.bearing.toString()+"°"))
+                   details.add(DetailsModel(context!!.resources.getString(R.string.speed),(loc.speed*3.6).roundToInt().toString()+"km/h"))
+                   details.add(DetailsModel(context!!.resources.getString(R.string.accuracy),if (loc.accuracy<1000) loc.accuracy.toString()+"m" else (loc.accuracy/1000.0).toString()+"km"))
                context?.let {context->
 
                    if(SharedPreferences(context).getLocation()!=null){
@@ -101,14 +102,14 @@ class CompassFragmentViewModel():ViewModel() {
 
                        bearing=if(bearing<0)360-abs(bearing) else bearing
                      details.add(  DetailsModel(
-                           "Angle With\nStart Location",
+                         context.resources.getString(R.string.angle_with_start_location),
                          "$bearing°"
                        )
                      )
                    }else{
                        details.add(  DetailsModel(
-                           "Angle With \n Start Location",
-                           "Start Location\n Not Saved"
+                           context.resources.getString(R.string.angle_with_start_location),
+                           context.resources.getString(R.string.start_location_not_saved)
                        )
                        )
                    }
@@ -138,9 +139,9 @@ class CompassFragmentViewModel():ViewModel() {
 
               var details2=ArrayList<DetailsModel>()
               details2.clear()
-              details2.add(DetailsModel("Azimuth",model.degrees.toString()))
-              details2.add(DetailsModel("Pitch",floatArray[1].toString()))
-              details2.add(DetailsModel("Roll",floatArray[2].toString()))
+              details2.add(DetailsModel(context!!.resources.getString(R.string.azimuth),model.degrees.toString()))
+              details2.add(DetailsModel(context!!.resources.getString(R.string.pitch),floatArray[1].toString()))
+              details2.add(DetailsModel(context!!.resources.getString(R.string.roll),floatArray[2].toString()))
               detailsLiveData2.value=details2
 
            }
@@ -168,7 +169,7 @@ class CompassFragmentViewModel():ViewModel() {
             e.printStackTrace()
             //Toast.makeText(context!!, e.localizedMessage, Toast.LENGTH_SHORT).show()
 
-            return "Address not found"
+            return context!!.resources.getString(R.string.address_not_found)
         }
         return null
     }
@@ -184,7 +185,7 @@ class CompassFragmentViewModel():ViewModel() {
                 SensorManager.SENSOR_DELAY_UI
 
                 )){
-               Toast.makeText(context!!, "Your device does not have some sensors. Data may be wrong", Toast.LENGTH_LONG).show()
+               Toast.makeText(context!!, context!!.resources.getString(R.string.sensors_not_found), Toast.LENGTH_LONG).show()
            }
         }
 

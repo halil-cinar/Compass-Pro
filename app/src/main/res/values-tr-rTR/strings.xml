@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="magnetic_heading">MAGNETIC HEADING</string>
+    <string name="gps_signal_is_expected">Gps sinyali bekleniyor</string>
+    <string name="longitude">Boylam</string>
+    <string name="latitude">Enlem</string>
+    <string name="altitude">Rakım</string>
+    <string name="gps_bearing">Gps Pusulası</string>
+    <string name="speed">Hız</string>
+    <string name="accuracy">Dogruluk</string>
+    <string name="angle_with_start_location">Başlangıc noktası \nile aranızdaki açı</string>
+    <string name="azimuth">Azimuth</string>
+    <string name="pitch">Pitch</string>
+    <string name="roll">Roll</string>
+    <string name="start_location_saved">Başlangıç noktası kaydedildi</string>
+    <string name="start_location_deleted">Başlangıc noktası silindi</string>
+    <string name="start_location_not_saved">Başlangıc noktası kaydedilmedi</string>
+    <string name="you_must_permission">Izinleri vermeniz gerekiyor</string>
+    <string name="address_not_found">Adres bulunamadı</string>
+    <string name="sensors_not_found">Cihazınızda bazı sensorler bulunmuyor. Veriler yanliş olabilir</string>
+</resources>
